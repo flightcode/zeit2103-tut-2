@@ -15,8 +15,7 @@ public class ReverseInput {
 
         System.out.println("Outputting...");
         while (!inputLines.empty()) {
-            System.out.println(inputLines.peek());
-            inputLines.pop();
+            System.out.println(inputLines.pop());
         }
     }
 }
